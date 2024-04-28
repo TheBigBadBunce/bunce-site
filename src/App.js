@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import photo from './polaroid.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={photo} className="App-logo" alt="logo" />
+        <br />
         <p>
           Coming soon™
         </p>
