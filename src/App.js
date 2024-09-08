@@ -1,15 +1,19 @@
-import photo from './polaroid.jpg';
-import './App.css';
+import "App.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import HomePage from "pages/Home";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+]);
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={photo} className="App-logo" alt="logo" />
-        <br />
-        <p>
-          Coming soon™
-        </p>
+        <RouterProvider router={router} />
       </header>
     </div>
   );
