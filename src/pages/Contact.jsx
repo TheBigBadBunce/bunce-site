@@ -3,7 +3,7 @@ import pageWrapper from "HOCs/PageWrapper";
 const HomePage = () => {
   return (
     <>
-      <p>Projects</p>
+      <p>Contact</p>
     </>
   );
 };

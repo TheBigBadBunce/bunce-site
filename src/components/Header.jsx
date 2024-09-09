@@ -1,5 +1,5 @@
 import { colors, space } from "data/styles";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 const HeaderBar = styled.header`
@@ -24,19 +24,28 @@ const Name = styled.h1`
 
 const NavLink = styled(Link)`
   color: inherit;
-  text-decoration: none;
+  text-decoration: ${({ currentPage }) => (currentPage ? "underline" : "none")};
   padding: ${space.box};
   font-family: "Nunito Sans";
   text-transform: uppercase;
 `;
 
+const links = [
+  { path: "/", name: "Projects" },
+  { path: "/about", name: "About" },
+  { path: "/contact", name: "Contact" },
+];
+
 const Header = () => {
+  const { pathname } = useLocation();
   return (
     <HeaderBar>
       <Name>Sam Bunce</Name>
-      <NavLink>Projects</NavLink>
-      <NavLink>About</NavLink>
-      <NavLink>Contact</NavLink>
+      {links.map(({ path, name }) => (
+        <NavLink to={path} currentPage={path === pathname} key={name}>
+          {name}
+        </NavLink>
+      ))}
     </HeaderBar>
   );
 };
