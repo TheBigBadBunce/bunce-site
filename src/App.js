@@ -1,6 +1,6 @@
-import "App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "pages/Home";
+import { GlobalStyle } from "data/styles";
 
 const router = createBrowserRouter([
   {
@@ -11,11 +11,12 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
+      <GlobalStyle />
+      <div className="App">
         <RouterProvider router={router} />
-      </header>
-    </div>
+      </div>
+    </>
   );
 }
 

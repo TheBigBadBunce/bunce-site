@@ -1,13 +1,11 @@
-import photo from "images/polaroid.jpg";
+import pageWrapper from "HOCs/PageWrapper";
 
 const HomePage = () => {
   return (
     <>
-      <img src={photo} className="App-logo" alt="logo" />
-      <br />
       <p>Coming soon™</p>
     </>
   );
 };
 
-export default HomePage;
+export default pageWrapper(HomePage);
