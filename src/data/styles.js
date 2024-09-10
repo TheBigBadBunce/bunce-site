@@ -10,7 +10,7 @@ export const colors = {
 
 export const space = {
   box: "18px",
-  boxDouble: "24px",
+  page: "48px",
 };
 
 // Style overrides

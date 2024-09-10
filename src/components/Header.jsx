@@ -2,6 +2,7 @@ import { colors, space } from "data/styles";
 import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
+// TODO better CSS order
 const HeaderBar = styled.header`
   width: 100%;
   min-height: 60px;
@@ -12,7 +13,8 @@ const HeaderBar = styled.header`
   align-items: center;
   justify-content: flex-end;
   padding: ${space.box};
-  max-width: calc(100vw - ${space.boxDouble});
+  max-width: 100vw;
+  box-sizing: border-box;
 `;
 
 const Name = styled.h1`
