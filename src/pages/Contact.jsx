@@ -17,7 +17,6 @@ const ContactLink = styled(Link)`
   padding: 2rem 0;
   background-color: ${colors.highlight1};
   color: ${colors.background};
-  text-decoration: none;
   text-transform: uppercase;
 
   &:active {

@@ -22,4 +22,8 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${colors.background};
     color: ${colors.text};
   }
+
+  a {
+    text-decoration: none;
+  }
 `;

@@ -26,7 +26,8 @@ const Name = styled.h1`
 
 const NavLink = styled(Link)`
   color: inherit;
-  text-decoration: ${({ currentPage }) => (currentPage ? "underline" : "none")};
+  text-decoration: ${({ $currentPage }) =>
+    $currentPage ? "underline" : "none"};
   padding: ${space.box};
   font-family: "Nunito Sans";
   text-transform: uppercase;
@@ -44,7 +45,7 @@ const Header = () => {
     <HeaderBar>
       <Name>Sam Bunce</Name>
       {links.map(({ path, name }) => (
-        <NavLink to={path} currentPage={path === pathname} key={name}>
+        <NavLink to={path} $currentPage={path === pathname} key={name}>
           {name}
         </NavLink>
       ))}
