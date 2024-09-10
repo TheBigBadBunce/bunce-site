@@ -8,19 +8,19 @@ export default [
     title: "Test Project 1",
     description: "I did something cool check it out",
     photo: testPhoto1,
-    url: "testproject1",
+    slug: "testproject1",
   },
   {
     title: "Test Project 2",
     description: "This one was interesting",
     photo: testPhoto2,
-    url: "testproject2",
+    slug: "testproject2",
   },
   {
     title: "Test Project 3",
     description: "Hey and a third thing",
     photo: testPhoto3,
-    url: "testproject3",
+    slug: "testproject3",
   },
   {
     title: "Test Project 4",
@@ -30,6 +30,6 @@ export default [
     
     Duis ullamcorper sit amet risus quis dignissim. Suspendisse semper cursus sem, ut commodo ante finibus ut. Sed fermentum lorem eget risus pretium, vitae finibus tortor tempus. Sed id pharetra turpis, id aliquam mi. Aliquam ullamcorper varius nisi. Nam vel facilisis libero. Aliquam hendrerit blandit erat, nec mollis erat scelerisque a. Integer in posuere erat. Integer blandit erat nunc, fringilla convallis purus imperdiet vel. Aliquam semper fermentum convallis. Nam in nunc sollicitudin, tristique ligula ut, tristique magna. In semper sit amet mauris ac semper. Suspendisse ultrices leo neque, non euismod dolor gravida nec. Integer suscipit in massa quis ullamcorper.`,
     photo: testPhoto4,
-    url: "testproject4",
+    slug: "testproject4",
   },
 ];
