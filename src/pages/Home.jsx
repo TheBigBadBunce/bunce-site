@@ -1,5 +1,5 @@
+import projects from "data/projects";
 import pageWrapper from "HOCs/PageWrapper";
-import { H1 } from "components/layout";
 import {
   ProjectList,
   ProjectWrapperLink,
@@ -7,8 +7,8 @@ import {
   ProjectTitle,
   ProjectDescription,
   Project,
-} from "./Home.styles";
-import projects from "data/projects";
+} from "pages/Home.styles";
+import { H1 } from "components/layout";
 
 const HomePage = () => {
   return (

@@ -1,9 +1,6 @@
-import pageWrapper from "HOCs/PageWrapper";
-import { P } from "components/layout";
-import aboutImage from "images/sam_rah_foh_short.jpeg";
-import { space } from "data/styles";
-import SideBySidePage from "components/SideBySidePage";
 import { Navigate, useParams } from "react-router-dom";
+import SideBySidePage from "components/SideBySidePage";
+import pageWrapper from "HOCs/PageWrapper";
 import useProject from "hooks/useProject";
 
 const Project = () => {

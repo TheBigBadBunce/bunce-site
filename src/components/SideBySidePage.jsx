@@ -1,5 +1,4 @@
 // TODO better import order
-import pageWrapper from "HOCs/PageWrapper";
 import styled from "styled-components";
 import { H1 } from "components/layout";
 import { space, mobileMediaQuery } from "data/styles";

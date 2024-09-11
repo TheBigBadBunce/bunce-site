@@ -1,6 +1,6 @@
-import { colors, mobileMediaQuery, space } from "data/styles";
-import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
+import { Link, useLocation } from "react-router-dom";
+import { colors, mobileMediaQuery, space } from "data/styles";
 
 // TODO better CSS order
 const HeaderBar = styled.header`

@@ -1,5 +1,5 @@
-import { space, mobileMediaQuery } from "data/styles";
 import styled from "styled-components";
+import { space, mobileMediaQuery } from "data/styles";
 
 export const H1 = styled.h1`
   font-size: 36pt;

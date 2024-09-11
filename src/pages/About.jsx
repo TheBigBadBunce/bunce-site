@@ -1,8 +1,8 @@
 import pageWrapper from "HOCs/PageWrapper";
 import { P } from "components/layout";
-import aboutImage from "images/sam_rah_foh_short.jpeg";
-import { space } from "data/styles";
 import SideBySidePage from "components/SideBySidePage";
+
+import aboutImage from "images/sam_rah_foh_short.jpeg";
 
 const AboutPage = () => {
   return (

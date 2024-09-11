@@ -1,6 +1,7 @@
+import { P } from "components/layout";
+
 import LC24Image from "images/sam_rah_backstage.jpeg";
 import GallagherImage from "images/gallagher-premiership.jpeg";
-import { P } from "components/layout";
 
 export default [
   {
