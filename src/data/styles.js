@@ -10,8 +10,11 @@ export const colors = {
 
 export const space = {
   box: "18px",
+  mobile: "8px",
   page: "48px",
 };
+
+export const mobileMediaQuery = "@media (max-width:768px)";
 
 // Style overrides
 export const GlobalStyle = createGlobalStyle`

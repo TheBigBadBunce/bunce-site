@@ -1,11 +1,15 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { colors, space } from "data/styles";
+import { colors, space, mobileMediaQuery } from "data/styles";
 
 export const ProjectList = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: ${space.box};
+
+  ${mobileMediaQuery} {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ProjectWrapperLink = styled(Link)`
@@ -30,6 +34,10 @@ export const ProjectDescription = styled.div`
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+
+  ${mobileMediaQuery} {
+    display: none;
+  }
 `;
 
 export const Project = styled.div`

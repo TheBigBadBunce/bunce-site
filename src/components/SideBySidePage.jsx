@@ -2,7 +2,7 @@
 import pageWrapper from "HOCs/PageWrapper";
 import styled from "styled-components";
 import { H1 } from "components/layout";
-import { space } from "data/styles";
+import { space, mobileMediaQuery } from "data/styles";
 
 const SideBySideContainer = styled.div`
   width: 100%;
@@ -13,10 +13,23 @@ const SideBySideContainer = styled.div`
   & > * {
     width: 50%;
   }
+
+  ${mobileMediaQuery} {
+    flex-direction: column;
+
+    & > * {
+      width: 100%;
+    }
+  }
 `;
 
 const ImageContainer = styled.div`
   padding-left: ${space.page};
+
+  ${mobileMediaQuery} {
+    padding-left: 0;
+    padding-top: ${space.box};
+  }
 `;
 
 const Image = styled.img`

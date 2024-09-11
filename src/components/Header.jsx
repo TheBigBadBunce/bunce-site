@@ -1,4 +1,4 @@
-import { colors, space } from "data/styles";
+import { colors, mobileMediaQuery, space } from "data/styles";
 import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
@@ -15,6 +15,11 @@ const HeaderBar = styled.header`
   padding: ${space.box};
   max-width: 100vw;
   box-sizing: border-box;
+
+  ${mobileMediaQuery} {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
 
 const Name = styled.h1`
@@ -26,6 +31,13 @@ const Name = styled.h1`
   a {
     color: ${colors.background};
   }
+
+  ${mobileMediaQuery} {
+    font-size: 30pt;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
 `;
 
 const NavLink = styled(Link)`
@@ -35,6 +47,10 @@ const NavLink = styled(Link)`
   padding: ${space.box};
   font-family: "Nunito Sans";
   text-transform: uppercase;
+
+  ${mobileMediaQuery} {
+    padding: ${space.mobile};
+  }
 `;
 
 const links = [
