@@ -4,21 +4,19 @@ import { Footer } from "components/Footer";
 import { space } from "data/styles";
 
 const PageContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   min-height: 100vh;
+  font-family: "Nunito Sans";
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-family: "Nunito Sans";
 `;
 
 const Page = styled.div`
-  width: 100%;
   padding: ${space.box} ${space.page};
   box-sizing: border-box;
+  width: 100%;
   max-width: 1000px;
 `;
 

@@ -8,9 +8,9 @@ const FooterContainer = styled.div`
 `;
 
 const FooterText = styled(P)`
-  text-align: center;
   margin: ${space.tiny} 0;
   color: ${colors.lightText};
+  text-align: center;
 `;
 
 const FooterLink = styled(Link)`

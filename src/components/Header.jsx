@@ -2,19 +2,22 @@ import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 import { colors, mobileMediaQuery, space } from "data/styles";
 
-// TODO better CSS order
 const HeaderBar = styled.header`
+  display: flex;
+  box-sizing: border-box;
+
+  padding: ${space.box};
+
   width: 100%;
+  max-width: 100vw;
   min-height: 60px;
+
   background-color: ${colors.highlight1};
   color: ${colors.background};
-  display: flex;
+
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  padding: ${space.box};
-  max-width: 100vw;
-  box-sizing: border-box;
 
   ${mobileMediaQuery} {
     flex-wrap: wrap;
@@ -23,29 +26,32 @@ const HeaderBar = styled.header`
 `;
 
 const Name = styled.h1`
-  font-family: "DM Sans";
-  font-size: 40pt;
   margin: 0;
   margin-right: auto;
+
+  font-family: "DM Sans";
+  font-size: 40pt;
 
   a {
     color: ${colors.background};
   }
 
   ${mobileMediaQuery} {
-    font-size: 30pt;
-    width: 100%;
-    text-align: center;
     margin-right: 0;
+    width: 100%;
+
+    font-size: 30pt;
+    text-align: center;
   }
 `;
 
 const NavLink = styled(Link)`
+  padding: ${space.box};
+
   color: inherit;
+  font-family: "Nunito Sans";
   text-decoration: ${({ $currentPage }) =>
     $currentPage ? "underline" : "none"};
-  padding: ${space.box};
-  font-family: "Nunito Sans";
   text-transform: uppercase;
 
   ${mobileMediaQuery} {

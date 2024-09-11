@@ -7,6 +7,7 @@ import { colors, space } from "data/styles";
 
 const CenteredContent = styled.div`
   width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,8 +15,9 @@ const CenteredContent = styled.div`
 `;
 
 const ContactLink = styled(Link)`
-  width: 250px;
   padding: 2rem 0;
+  width: 250px;
+
   background-color: ${colors.highlight1};
   color: ${colors.background};
   text-transform: uppercase;

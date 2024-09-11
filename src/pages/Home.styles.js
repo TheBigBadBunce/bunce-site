@@ -17,23 +17,24 @@ export const ProjectWrapperLink = styled(Link)`
 `;
 
 export const ProjectText = styled.div`
-  text-align: center;
   z-index: 1;
   padding: ${space.box};
+  text-align: center;
 `;
 export const ProjectTitle = styled.div`
   font-size: 24pt;
   font-weight: 600;
 `;
 export const ProjectDescription = styled.div`
-  height: 3.7rem;
-  overflow-y: hidden;
-  overflow-wrap: break-word;
-  text-overflow: ellipsis;
-  overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+
+  height: 3.7rem;
+
+  overflow: hidden;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
 
   ${mobileMediaQuery} {
     display: none;
@@ -41,23 +42,25 @@ export const ProjectDescription = styled.div`
 `;
 
 export const Project = styled.div`
+  display: flex;
+  position: relative;
+
   background-image: url(${({ $photo }) => $photo});
   background-size: cover;
   background-position: center;
   color: ${colors.background};
+
   aspect-ratio: 1;
-  display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   transition: 0.7s;
 
   &:before {
     content: "";
-    background: #000000;
     position: absolute;
     width: 100%;
     height: 100%;
+    background: #000000;
     transition: 0.7s;
     opacity: 0.3;
   }

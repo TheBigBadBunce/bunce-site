@@ -1,11 +1,10 @@
-// TODO better import order
 import styled from "styled-components";
 import { H1 } from "components/layout";
 import { space, mobileMediaQuery } from "data/styles";
 
 const SideBySideContainer = styled.div`
-  width: 100%;
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
 
