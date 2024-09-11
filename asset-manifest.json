@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c545295d.css",
-    "main.js": "/static/js/main.079e0de3.js",
-    "static/js/453.a06bc3a7.chunk.js": "/static/js/453.a06bc3a7.chunk.js",
-    "static/media/polaroid.jpg": "/static/media/polaroid.a8d53a85444ff0ede0b5.jpg",
+    "main.js": "/static/js/main.e2d372d9.js",
+    "static/media/gallagher-premiership.jpeg": "/static/media/gallagher-premiership.d35158d49fbe4fed66b5.jpeg",
+    "static/media/sam_rah_backstage.jpeg": "/static/media/sam_rah_backstage.6ceafbd489746beb7d1d.jpeg",
+    "static/media/sam_rah_foh_short.jpeg": "/static/media/sam_rah_foh_short.9e7376ab2a0ec05a7fc9.jpeg",
     "index.html": "/index.html",
-    "main.c545295d.css.map": "/static/css/main.c545295d.css.map",
-    "main.079e0de3.js.map": "/static/js/main.079e0de3.js.map",
-    "453.a06bc3a7.chunk.js.map": "/static/js/453.a06bc3a7.chunk.js.map"
+    "main.e2d372d9.js.map": "/static/js/main.e2d372d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c545295d.css",
-    "static/js/main.079e0de3.js"
+    "static/js/main.e2d372d9.js"
   ]
 }
