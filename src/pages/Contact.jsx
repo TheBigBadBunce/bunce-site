@@ -1,6 +1,6 @@
 import pageWrapper from "HOCs/PageWrapper";
-import { MassiveH1 } from "components/layout";
-import { colors } from "data/styles";
+import { MassiveH1, P } from "components/layout";
+import { colors, space } from "data/styles";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -25,6 +25,16 @@ const ContactLink = styled(Link)`
   }
 `;
 
+const SmallLinkContainer = styled(P)`
+  margin-top: ${space.box};
+  color: ${colors.lightText};
+`;
+
+const SmallLink = styled(Link)`
+  color: ${colors.lightText};
+  text-decoration: underline;
+`;
+
 const ContactPage = () => {
   return (
     <CenteredContent>
@@ -32,6 +42,9 @@ const ContactPage = () => {
       <ContactLink type="button" to="mailto:sam.bunce@hotmail.com">
         Email
       </ContactLink>
+      <SmallLinkContainer>
+        <SmallLink to="https://linkedin.com/in/sambunce">LinkedIn</SmallLink>
+      </SmallLinkContainer>
     </CenteredContent>
   );
 };

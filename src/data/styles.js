@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const colors = {
   background: "#F5F5F5",
   text: "#000015",
+  lightText: "#c9c9c9",
   mid: "#748386",
   highlight1: "#3454D1",
   highlight2: "#FF8C42",
@@ -11,6 +12,7 @@ export const colors = {
 export const space = {
   box: "18px",
   mobile: "8px",
+  tiny: "4px",
   page: "48px",
 };
 
