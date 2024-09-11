@@ -1,35 +1,44 @@
-import testPhoto1 from "images/sam_rah_backstage.jpeg";
-import testPhoto2 from "images/sam_rah_foh.jpeg";
-import testPhoto3 from "images/sam_rah_foh_short.jpeg";
-import testPhoto4 from "images/polaroid.jpg";
+import LC24Image from "images/sam_rah_backstage.jpeg";
+import GallagherImage from "images/gallagher-premiership.jpeg";
+import { P } from "components/layout";
 
 export default [
   {
-    title: "Test Project 1",
-    description: "I did something cool check it out",
-    photo: testPhoto1,
-    slug: "testproject1",
+    title: "Gallagher Premiership Final 2024",
+    description: (
+      <P>
+        I joined a team from RG Jones Sound Engineering to provide the audio for
+        the Gallagher Premiership Final between Northampton Saints and Bath
+        Rugby. We were responsible for the announcement, playback and DJ systems
+        in the arena itself, as well as a secondary DJ system in the fan
+        village.
+      </P>
+    ),
+    photo: GallagherImage,
+    slug: "gallagher-premiership",
   },
   {
-    title: "Test Project 2",
-    description: "This one was interesting",
-    photo: testPhoto2,
-    slug: "testproject2",
-  },
-  {
-    title: "Test Project 3",
-    description: "Hey and a third thing",
-    photo: testPhoto3,
-    slug: "testproject3",
-  },
-  {
-    title: "Test Project 4",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar tempus metus, at tincidunt sapien dictum at. Duis sodales ac felis nec facilisis. Quisque lacinia ligula ligula, vitae tempor ligula pharetra vitae. Curabitur elementum nulla libero, ac porttitor nibh ultrices sed. Vivamus nec risus auctor, sollicitudin orci vitae, porttitor urna. Curabitur condimentum magna erat, sed gravida nisl feugiat a. Nullam odio tellus, consectetur et ipsum tempus, pulvinar ullamcorper est. Integer finibus sodales sollicitudin.
-
-    Donec sodales elit eu bibendum pharetra. Quisque dui dolor, pharetra a elit in, congue sagittis nibh. Vestibulum sodales iaculis libero, at viverra justo. Mauris dolor dui, venenatis nec venenatis facilisis, placerat at odio. Proin suscipit sed sapien sed egestas. Nullam porttitor odio sed ex euismod viverra. Suspendisse tempus, lorem in laoreet vehicula, tortor neque condimentum erat, ac ultricies massa arcu vestibulum elit.
-    
-    Duis ullamcorper sit amet risus quis dignissim. Suspendisse semper cursus sem, ut commodo ante finibus ut. Sed fermentum lorem eget risus pretium, vitae finibus tortor tempus. Sed id pharetra turpis, id aliquam mi. Aliquam ullamcorper varius nisi. Nam vel facilisis libero. Aliquam hendrerit blandit erat, nec mollis erat scelerisque a. Integer in posuere erat. Integer blandit erat nunc, fringilla convallis purus imperdiet vel. Aliquam semper fermentum convallis. Nam in nunc sollicitudin, tristique ligula ut, tristique magna. In semper sit amet mauris ac semper. Suspendisse ultrices leo neque, non euismod dolor gravida nec. Integer suscipit in massa quis ullamcorper.`,
-    photo: testPhoto4,
-    slug: "testproject4",
+    title: "Leadership Conference 2024",
+    description: (
+      <>
+        <P>
+          It was great to join the Leadership Conference again for their 2024
+          event. This year, I was part of the team in the Albert Hall, looking
+          after the side venues such as donor lounges and volunteer hub.
+        </P>
+        <P>
+          During sessions while those venues were quiet, I was part of the stage
+          team, as well as supporting the seminar venues with any problems that
+          sprang up during the event.
+        </P>
+        <P>
+          In the week leading up to lc24, I built the side venues with the rest
+          of the HTB team, which involved rerigging and designing lights at HTB
+          Onslow Square and Brompton Road.
+        </P>
+      </>
+    ),
+    photo: LC24Image,
+    slug: "lc24",
   },
 ];

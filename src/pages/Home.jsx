@@ -13,7 +13,7 @@ import projects from "data/projects";
 const HomePage = () => {
   return (
     <>
-      <H1>Projects</H1>
+      <H1>Recent Projects</H1>
       <ProjectList>
         {projects.map(({ title, description, photo, slug }) => (
           <ProjectWrapperLink to={`/project/${slug}`} key={title}>

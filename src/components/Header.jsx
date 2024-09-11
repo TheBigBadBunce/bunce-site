@@ -22,6 +22,10 @@ const Name = styled.h1`
   font-size: 40pt;
   margin: 0;
   margin-right: auto;
+
+  a {
+    color: ${colors.background};
+  }
 `;
 
 const NavLink = styled(Link)`
@@ -43,7 +47,9 @@ const Header = () => {
   const { pathname } = useLocation();
   return (
     <HeaderBar>
-      <Name>Sam Bunce</Name>
+      <Name>
+        <Link to={"/"}>Sam Bunce</Link>
+      </Name>
       {links.map(({ path, name }) => (
         <NavLink to={path} $currentPage={path === pathname} key={name}>
           {name}

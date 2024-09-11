@@ -22,7 +22,7 @@ export const ProjectTitle = styled.div`
   font-weight: 600;
 `;
 export const ProjectDescription = styled.div`
-  height: 2.5rem;
+  height: 3.7rem;
   overflow-y: hidden;
   overflow-wrap: break-word;
   text-overflow: ellipsis;
