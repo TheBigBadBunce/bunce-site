@@ -6,6 +6,7 @@ import HomePage from "pages/Home";
 import AboutPage from "pages/About";
 import ContactPage from "pages/Contact";
 import ProjectPage from "pages/Project";
+import NotFoundRedirectPage from "pages/NotFoundRedirect";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/project/:slug",
     element: <ProjectPage />,
+  },
+  {
+    path: "/:forwardAddress",
+    element: <NotFoundRedirectPage />,
   },
 ]);
 
