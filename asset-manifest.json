@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.dbc02c93.js",
+    "main.js": "/static/js/main.3a97847d.js",
     "static/media/gallagher-premiership.jpeg": "/static/media/gallagher-premiership.d35158d49fbe4fed66b5.jpeg",
     "static/media/sam_rah_backstage.jpeg": "/static/media/sam_rah_backstage.6ceafbd489746beb7d1d.jpeg",
     "static/media/sam_rah_foh_short.jpeg": "/static/media/sam_rah_foh_short.9e7376ab2a0ec05a7fc9.jpeg",
     "index.html": "/index.html",
-    "main.dbc02c93.js.map": "/static/js/main.dbc02c93.js.map"
+    "main.3a97847d.js.map": "/static/js/main.3a97847d.js.map"
   },
   "entrypoints": [
-    "static/js/main.dbc02c93.js"
+    "static/js/main.3a97847d.js"
   ]
 }
