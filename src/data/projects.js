@@ -3,7 +3,7 @@ import { P } from "components/layout";
 import LC24Image from "images/sam_rah_backstage.jpeg";
 import GallagherImage from "images/gallagher-premiership.jpeg";
 
-export default [
+const projects = [
   {
     title: "Gallagher Premiership Final 2024",
     description: (
@@ -40,6 +40,12 @@ export default [
       </>
     ),
     photo: LC24Image,
+    photoCredit: {
+      source: "Darleen Boettger",
+      url: "https://www.instagram.com/darleen_m._b_photography",
+    },
     slug: "lc24",
   },
 ];
+
+export default projects;

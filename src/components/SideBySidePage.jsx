@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 import { H1 } from "components/layout";
-import { space, mobileMediaQuery } from "data/styles";
+import { space, mobileMediaQuery, colors } from "data/styles";
 
 const SideBySideContainer = styled.div`
   display: flex;
@@ -34,7 +36,19 @@ const Image = styled.img`
   width: 100%;
 `;
 
-const SideBySidePage = ({ title, children, image }) => {
+const ImageCredit = styled.div`
+  width: 100%;
+  text-align: right;
+  color: ${colors.text};
+
+  a {
+    color: ${colors.text};
+    text-decoration: underline;
+  }
+`;
+
+const SideBySidePage = ({ title, children, image, photoCredit }) => {
+  console.log(photoCredit);
   return (
     <>
       <SideBySideContainer>
@@ -44,6 +58,16 @@ const SideBySidePage = ({ title, children, image }) => {
         </div>
         <ImageContainer>
           <Image src={image} />
+          {photoCredit && (
+            <ImageCredit>
+              Image courtesy of{" "}
+              {photoCredit.url ? (
+                <Link to={photoCredit.url}>{photoCredit.source}</Link>
+              ) : (
+                photoCredit.source
+              )}
+            </ImageCredit>
+          )}
         </ImageContainer>
       </SideBySideContainer>
     </>

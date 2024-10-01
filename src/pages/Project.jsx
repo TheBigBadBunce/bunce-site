@@ -12,7 +12,11 @@ const Project = () => {
   }
 
   return (
-    <SideBySidePage title={project.title} image={project.photo}>
+    <SideBySidePage
+      title={project.title}
+      image={project.photo}
+      photoCredit={project.photoCredit}
+    >
       {project.description}
     </SideBySidePage>
   );
