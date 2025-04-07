@@ -25,7 +25,7 @@ export const Footer = () => {
         <FooterLink to="https://github.com/TheBigBadBunce/bunce-site">
           Built from scratch
         </FooterLink>{" "}
-        by Sam Bunce ©2024.
+        by Sam Bunce ©2025.
       </FooterText>
     </FooterContainer>
   );
