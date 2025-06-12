@@ -8,6 +8,12 @@ import ContactPage from "pages/Contact";
 import ProjectPage from "pages/Project";
 import NotFoundRedirectPage from "pages/NotFoundRedirect";
 
+// RRv6 binned redirects :(
+const Redirect = ({ to }) => {
+  window.location.href = to;
+  return null;
+};
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +30,16 @@ const router = createBrowserRouter([
   {
     path: "/project/:slug",
     element: <ProjectPage />,
+  },
+  {
+    path: "/dungeon",
+    element: (
+      <Redirect
+        to={
+          "https://altien.notion.site/Crunch-b7510f48249249edb38111e09246c8d4"
+        }
+      />
+    ),
   },
   {
     path: "/:forwardAddress",
