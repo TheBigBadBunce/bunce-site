@@ -46,7 +46,7 @@ const router = createBrowserRouter([
     element: (
       <Redirect
         to={
-          "https://altien.notion.site/Best-in-Show-37557d70ec138080bcc8db51a95c61d2
+          "https://altien.notion.site/Best-in-Show-37557d70ec138080bcc8db51a95c61d2"
         }
       />
     ),
