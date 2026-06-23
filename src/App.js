@@ -42,6 +42,26 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/doggos",
+    element: (
+      <Redirect
+        to={
+          "https://www.notion.so/altien/Best-in-Show-37557d70ec138080bcc8db51a95c61d2"
+        }
+      />
+    ),
+  },
+  {
+    path: "/dinos",
+    element: (
+      <Redirect
+        to={
+          "https://www.notion.so/altien/A-Gold-Piece-for-Big-Man-37557d70ec13802c93bcf61b9901e572"
+        }
+      />
+    ),
+  },
+  {
     path: "/:forwardAddress",
     element: <NotFoundRedirectPage />,
   },
