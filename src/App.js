@@ -36,7 +36,7 @@ const router = createBrowserRouter([
     element: (
       <Redirect
         to={
-          "https://www.notion.so/altien/Start-Here-c80862f7f08b4dd38649e47c3cd330c4"
+          "https://altien.notion.site/Start-Here-c80862f7f08b4dd38649e47c3cd330c4"
         }
       />
     ),
@@ -46,7 +46,7 @@ const router = createBrowserRouter([
     element: (
       <Redirect
         to={
-          "https://www.notion.so/altien/Best-in-Show-37557d70ec138080bcc8db51a95c61d2"
+          "https://altien.notion.site/Best-in-Show-37557d70ec138080bcc8db51a95c61d2
         }
       />
     ),
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
     element: (
       <Redirect
         to={
-          "https://www.notion.so/altien/A-Gold-Piece-for-Big-Man-37557d70ec13802c93bcf61b9901e572"
+          "https://altien.notion.site/A-Gold-Piece-for-Big-Man-37557d70ec13802c93bcf61b9901e572"
         }
       />
     ),
