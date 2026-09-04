@@ -30,8 +30,6 @@ export const ProjectDescription = styled.div`
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 
-  height: 4rem;
-
   overflow: hidden;
   overflow-wrap: break-word;
   text-overflow: ellipsis;
@@ -69,8 +67,11 @@ export const Project = styled.div`
     transition: 0.7s;
   }
   ${ProjectDescription} {
-    opacity: 0;
-    transition: 0.7s;
+    height: 0;
+    filter: blur(8px);
+    transition:
+      height 0.4s 0.1s,
+      filter 0.4s;
   }
   &:hover {
     transform: scale(1.1);
@@ -84,7 +85,11 @@ export const Project = styled.div`
     }
 
     ${ProjectDescription} {
-      opacity: 1;
+      height: 4rem;
+      filter: blur(0px);
+      transition:
+        height 0.5s,
+        filter 0.5s 0.2s;
     }
   }
 `;
