@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import pageWrapper from "@/HOCS/PageWrapper";
+import pageWrapper from "@/HOCs/PageWrapper";
 import { MassiveH1, P } from "@/components/layout";
 import { colors, space } from "@/data/styles";
 

@@ -1,5 +1,5 @@
 import projects from "@/data/projects";
-import pageWrapper from "@/HOCS/PageWrapper";
+import pageWrapper from "@/HOCs/PageWrapper";
 import {
   ProjectList,
   ProjectWrapperLink,

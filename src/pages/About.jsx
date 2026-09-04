@@ -1,4 +1,4 @@
-import pageWrapper from "@/HOCS/PageWrapper";
+import pageWrapper from "@/HOCs/PageWrapper";
 import { P } from "@/components/layout";
 import SideBySidePage from "@/components/SideBySidePage";
 
