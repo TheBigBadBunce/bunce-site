@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
-import { colors, mobileMediaQuery, space } from "data/styles";
+import { colors, mobileMediaQuery, space } from "@/data/styles";
 
 const HeaderBar = styled.header`
   display: flex;

@@ -1,4 +1,4 @@
-import projects from "data/projects";
+import projects from "@/data/projects";
 
 const useProject = (slug) => {
   return projects.find((project) => project.slug === slug);

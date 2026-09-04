@@ -1,12 +1,12 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import { GlobalStyle } from "data/styles";
+import { GlobalStyle } from "@/data/styles";
 
-import HomePage from "pages/Home";
-import AboutPage from "pages/About";
-import ContactPage from "pages/Contact";
-import ProjectPage from "pages/Project";
-import NotFoundRedirectPage from "pages/NotFoundRedirect";
+import HomePage from "@/pages/Home";
+import AboutPage from "@/pages/About";
+import ContactPage from "@/pages/Contact";
+import ProjectPage from "@/pages/Project";
+import NotFoundRedirectPage from "@/pages/NotFoundRedirect";
 
 // RRv6 binned redirects :(
 const Redirect = ({ to }) => {

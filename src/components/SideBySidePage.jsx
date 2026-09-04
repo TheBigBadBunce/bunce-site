@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { H1 } from "components/layout";
-import { space, mobileMediaQuery, colors } from "data/styles";
+import { H1 } from "@/components/layout";
+import { space, mobileMediaQuery, colors } from "@/data/styles";
 
 const SideBySideContainer = styled.div`
   display: flex;

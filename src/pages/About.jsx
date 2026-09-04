@@ -1,8 +1,8 @@
-import pageWrapper from "HOCs/PageWrapper";
-import { P } from "components/layout";
-import SideBySidePage from "components/SideBySidePage";
+import pageWrapper from "@/HOCS/PageWrapper";
+import { P } from "@/components/layout";
+import SideBySidePage from "@/components/SideBySidePage";
 
-import aboutImage from "images/sam_rah_foh_short.jpeg";
+import aboutImage from "@/images/sam_rah_foh_short.jpeg";
 
 const AboutPage = () => {
   return (

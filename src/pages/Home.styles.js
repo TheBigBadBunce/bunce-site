@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { colors, space, mobileMediaQuery } from "data/styles";
+import { colors, space, mobileMediaQuery } from "@/data/styles";
 
 export const ProjectList = styled.div`
   display: grid;
@@ -27,10 +27,10 @@ export const ProjectTitle = styled.div`
 `;
 export const ProjectDescription = styled.div`
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 
-  height: 3.7rem;
+  height: 4rem;
 
   overflow: hidden;
   overflow-wrap: break-word;

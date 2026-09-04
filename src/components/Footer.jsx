@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { P } from "components/layout";
-import { colors, space } from "data/styles";
+import { P } from "@/components/layout";
+import { colors, space } from "@/data/styles";
 
 const FooterContainer = styled.div`
   margin: ${space.page} ${space.page} ${space.box} ${space.page};

@@ -1,7 +1,7 @@
 import { Navigate, useParams } from "react-router-dom";
-import SideBySidePage from "components/SideBySidePage";
-import pageWrapper from "HOCs/PageWrapper";
-import useProject from "hooks/useProject";
+import SideBySidePage from "@/components/SideBySidePage";
+import pageWrapper from "@/HOCS/PageWrapper";
+import useProject from "@/hooks/useProject";
 
 const Project = () => {
   const { slug } = useParams();

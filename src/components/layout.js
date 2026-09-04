@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { space, mobileMediaQuery } from "data/styles";
+import { space, mobileMediaQuery } from "@/data/styles";
 
 export const H1 = styled.h1`
   margin: 0 0 ${space.box} 0;
