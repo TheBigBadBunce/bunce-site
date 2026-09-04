@@ -2,15 +2,26 @@ import { P } from "@/components/layout";
 
 import LC24Image from "@/images/sam_rah_backstage.jpeg";
 import GallagherImage from "@/images/gallagher-premiership.jpeg";
+import StMarysFashionShowImage from "@/images/stmarys_fashionshow.jpg";
 
 const projects = [
   {
+    title: "St Mary's Marylebone",
+    description: `Since 2024, I've been part of the freelance events team at
+        St Mary's church in Marylebone. As well as a thriving church on a Sunday,
+        St Mary's hosts external events throughout the week. These have included
+        fashion shows, candlelight concerts, book launches, charity fundraisers,
+        and weddings.`,
+    photo: StMarysFashionShowImage,
+    slug: "st-marys",
+  },
+  {
     title: "Gallagher Premiership Final 2024",
-    description: `I joined a team from RG Jones Sound Engineering to provide the audio for
-        the Gallagher Premiership Final between Northampton Saints and Bath
-        Rugby. We were responsible for the announcement, playback and DJ systems
-        in the arena itself, as well as a secondary DJ system in the fan
-        village.`,
+    description: `I joined a team from RG Jones Sound Engineering to provide
+        the audio for the Gallagher Premiership Final between Northampton Saints
+        and Bath Rugby. We were responsible for the announcement, playback and
+        DJ systems in the arena itself, as well as a secondary DJ system in the
+        fan village.`,
     photo: GallagherImage,
     slug: "gallagher-premiership",
   },
