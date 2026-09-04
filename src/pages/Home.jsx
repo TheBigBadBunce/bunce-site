@@ -15,9 +15,9 @@ const HomePage = () => {
     <>
       <H1>Recent Projects</H1>
       <ProjectList>
-        {projects.map(({ title, description, photo, slug }) => (
+        {projects.map(({ title, description, photos, slug }) => (
           <ProjectWrapperLink to={`/project/${slug}`} key={title}>
-            <Project $photo={photo}>
+            <Project $photo={photos[0]}>
               <ProjectText>
                 <ProjectTitle>{title}</ProjectTitle>
                 <ProjectDescription>{description}</ProjectDescription>

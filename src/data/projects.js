@@ -3,6 +3,7 @@ import { P } from "@/components/layout";
 import LC24Image from "@/images/sam_rah_backstage.jpeg";
 import GallagherImage from "@/images/gallagher-premiership.jpeg";
 import StMarysFashionShowImage from "@/images/stmarys_fashionshow.jpg";
+import StMarysDeskImage from "@/images/stmarys_desk.jpg";
 
 const projects = [
   {
@@ -12,7 +13,7 @@ const projects = [
         St Mary's hosts external events throughout the week. These have included
         fashion shows, candlelight concerts, book launches, charity fundraisers,
         and weddings.`,
-    photo: StMarysFashionShowImage,
+    photos: [StMarysFashionShowImage, StMarysDeskImage],
     slug: "st-marys",
   },
   {
@@ -22,7 +23,7 @@ const projects = [
         and Bath Rugby. We were responsible for the announcement, playback and
         DJ systems in the arena itself, as well as a secondary DJ system in the
         fan village.`,
-    photo: GallagherImage,
+    photos: [GallagherImage],
     slug: "gallagher-premiership",
   },
   {
@@ -39,7 +40,7 @@ const projects = [
           In the week leading up to lc24, I built the side venues with the rest
           of the HTB team, which involved rerigging and designing lights at HTB
           Onslow Square and Brompton Road.`,
-    photo: LC24Image,
+    photos: [LC24Image],
     photoCredit: {
       source: "Darleen Boettger",
       url: "https://www.instagram.com/darleen_m._b_photography",

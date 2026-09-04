@@ -14,8 +14,8 @@ const Project = () => {
   return (
     <SideBySidePage
       title={project.title}
-      image={project.photo}
-      photoCredit={project.photoCredit}
+      images={project.photos}
+      imageCredit={project.photoCredit}
     >
       {project.description}
     </SideBySidePage>
