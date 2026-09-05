@@ -26,12 +26,10 @@ const projects = [
   },
   {
     title: "Carols at St Mary's",
-    description: [
-      `In addition to my regular work at St Mary's, I was asked to take
+    description: `In addition to my regular work at St Mary's, I was asked to take
         on the lighting for their spectacular christmas carol service. The evening featured
         incredible performances from the church's congregation and choir, and it was a real
         provilege to bring their ambitious vision to life.`,
-    ],
     photos: [StMarysCarolsRussell, StMarysCarolsVenue],
     slug: "carols",
     photoCredit: {
@@ -41,23 +39,21 @@ const projects = [
   },
   {
     title: "St Mary's Marylebone",
-    description: [
-      `Since 2024, I've been part of the freelance events team at St
+    description: `Since 2024, I've been part of the freelance events team at St
         Mary's church in Marylebone. As well as a thriving church on a Sunday, St Mary's
         hosts external events throughout the week. These have included fashion shows,
         candlelight concerts, book launches, charity fundraisers, and weddings.`,
-    ],
+
     photos: [StMarysFashionShow, StMarysDesk, StMarysQuartet, StMarysTimes],
     slug: "st-marys",
   },
   {
     title: "Gallagher Premiership Final",
-    description: [
-      `I joined a team from RG Jones Sound Engineering to provide the audio
+    description: `I joined a team from RG Jones Sound Engineering to provide the audio
         for the Gallagher Premiership Final between Northampton Saints and Bath Rugby. We
         were responsible for the announcement, playback and DJ systems in the arena itself,
         as well as a secondary DJ system in the fan village.`,
-    ],
+
     photos: [Gallagher],
     slug: "gallagher-premiership",
   },

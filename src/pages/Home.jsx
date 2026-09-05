@@ -21,12 +21,14 @@ const HomePage = () => {
               <ProjectText>
                 <ProjectTitle>{title}</ProjectTitle>
                 <ProjectDescription>
-                  {description.map((line) => (
-                    <>
-                      {line}
-                      <br />
-                    </>
-                  ))}
+                  {Array.isArray(description)
+                    ? description.map((line) => (
+                        <>
+                          {line}
+                          <br />
+                        </>
+                      ))
+                    : description}
                 </ProjectDescription>
               </ProjectText>
             </Project>

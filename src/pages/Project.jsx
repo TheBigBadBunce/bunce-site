@@ -18,9 +18,9 @@ const Project = () => {
       images={project.photos}
       imageCredit={project.photoCredit}
     >
-      {project.description.map((block) => (
-        <Markdown>{block}</Markdown>
-      ))}
+      {Array.isArray(project.description)
+        ? project.description.map((block) => <Markdown>{block}</Markdown>)
+        : project.description}
     </SideBySidePage>
   );
 };
