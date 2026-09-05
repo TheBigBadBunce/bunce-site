@@ -20,7 +20,14 @@ const HomePage = () => {
             <Project $photo={photos[0]}>
               <ProjectText>
                 <ProjectTitle>{title}</ProjectTitle>
-                <ProjectDescription>{description}</ProjectDescription>
+                <ProjectDescription>
+                  {description.map((line) => (
+                    <>
+                      {line}
+                      <br />
+                    </>
+                  ))}
+                </ProjectDescription>
               </ProjectText>
             </Project>
           </ProjectWrapperLink>
