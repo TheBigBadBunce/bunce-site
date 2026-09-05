@@ -6,7 +6,7 @@ import aboutImage from "@/images/sam_rah_foh_short.jpeg";
 
 const AboutPage = () => {
   return (
-    <SideBySidePage title="About" image={aboutImage}>
+    <SideBySidePage title="About" images={[aboutImage]}>
       <P>
         Sam is a Freelance Production Engineer with broad experience across
         almost all areas of live event production. With proven experience in
