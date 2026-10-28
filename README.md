@@ -1,6 +1,6 @@
 # Sam Bunce, Freelance Production Engineer
 
-Personal portfolio / contact site built on React, with React Router and Styled Components.
+Personal portfolio / contact site built on React, with React Router and Styled Components. 0% vibe coded.
 
 Slightly overkill for what it is, but it's a fun exercise to keep my React basics up!
 
