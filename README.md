@@ -1,7 +1,7 @@
-# Sam Bunce, Freelance Audio Engineer
+# Sam Bunce, Freelance Production Engineer
 
 Personal portfolio / contact site built on React, with React Router and Styled Components.
 
-Yes it's a little overkill, but it's been a good chance to use my web dev skills again :)
+Slightly overkill for what it is, but it's a fun exercise to keep my React basics up!
 
 [Check it out here](https://bunce.dev). And if you're looking for a production engineer who can do a little bit of everything (even software), [get in touch](https://bunce.dev/contact)!
